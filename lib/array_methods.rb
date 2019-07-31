@@ -13,7 +13,7 @@ end
 
 def find_max_value(array)
   max_value = 0
-  arrray.length.times do |index|
+  array.length.times do |index|
     if array[index] > max_value
       max_value = array[index]
     end
@@ -23,7 +23,7 @@ end
 
 def find_min_value(array)
   min_value = array[0]
-  arrray.length.times do |index|
+  array.length.times do |index|
     if array[index] < min_value
       min_value = array[index]
     end
